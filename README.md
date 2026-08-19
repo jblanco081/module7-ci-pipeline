@@ -78,3 +78,5 @@ Rubric criteria 4 and 5 are reflective writing tasks to be addressed in a separa
 | RC 3 | Verify the pipeline catches a failing change. Include a new feature branch with a change that should cause the pipeline to fail, a pull request from the feature branch to main, and evidence that the pipeline detected the failure and blocked the merge. | No |
 | RC 4 | Summarize what the pipeline results show about reliable integration. Include what the passing and failing pipeline results reveal about how CI/CD protects code quality, how CI/CD pipelines support developer productivity beyond catching bugs, and what risks remain even when all pipeline checks pass. | No |
 | RC 5 | Describe an improvement you would make to strengthen main-branch protection in the future. | No |
+
+CI pipeline verification branch.
