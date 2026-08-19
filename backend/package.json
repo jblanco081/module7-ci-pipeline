@@ -1,0 +1,24 @@
+{
+  "name": "seedswap-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node server.ts",
+    "dev": "node --watch server.ts",
+    "test": "node --test tests/service.test.ts",
+    "seed": "node seed.ts"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.8.0",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.3.1",
+    "helmet": "^8.1.0",
+    "kysely": "^0.28.14",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/express": "^5.0.6",
+    "typescript": "^5.9.3"
+  }
+}
