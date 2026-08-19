@@ -27,7 +27,7 @@ export async function createPacket(
   db: DB,
   data: { name: string; description: string; category: string; condition: string; quantity: number },
 ): Promise<SeedPacket> {
-  if (!data.name.trim()) throw new Error("Name is required");
+ // if (!data.name.trim()) throw new Error("Name is required");
   if (data.quantity <= 0) throw new Error("Quantity must be a positive number");
 
   const result = await db
